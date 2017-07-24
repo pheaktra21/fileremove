@@ -32,17 +32,24 @@
 ckanext-fileremove
 =============
 
-.. Put a description of your extension here:
-   What does it do? What features does it have?
-   Consider including some screenshots or embedding a video!
+Fileremove is a light extension for removing stored file in local directory.
+
+While Filestore provides an ability to store file on local directory,
+Datastore provides an ability to store data of the file in database and 
+makes individual data elements accessible and queryable. However, if we
+upload a file as a resource, and then delete it, the file is never
+deleted from local directory. Both Filestore and Datastore do not provide
+deleting file function. 
+
+Therefore, Fileremove trys to reduce this limitation by providing an 
+ability to remove resource file from local directory.
 
 
 ------------
 Requirements
 ------------
 
-For example, you might want to mention here which versions of CKAN this
-extension works with.
+This extension was tested with CKAN version 2.6.2.
 
 
 ------------
