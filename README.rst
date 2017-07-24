@@ -41,8 +41,9 @@ upload a file as a resource, and then delete it, the file is never
 deleted from local directory. Both Filestore and Datastore do not provide
 deleting file function. 
 
-Therefore, Fileremove trys to reduce this limitation by providing an 
-ability to remove resource file from local directory.
+Therefore, Fileremove trys to omit this limitation by providing an 
+ability to remove stored file from local directory at the same time
+the resource is deleted from CKAN database.
 
 
 ------------
