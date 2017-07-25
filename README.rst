@@ -1,30 +1,29 @@
 .. You should enable this project on travis-ci.org and coveralls.io to make
    these badges work. The necessary Travis and Coverage config files have been
    generated for you.
-
-.. image:: https://travis-ci.org/pheaktra21/ckanext-fileremove.svg?branch=master
+.. .. image:: https://travis-ci.org/pheaktra21/ckanext-fileremove.svg?branch=master
     :target: https://travis-ci.org/pheaktra21/ckanext-fileremove
 
-.. image:: https://coveralls.io/repos/pheaktra21/ckanext-fileremove/badge.svg
+.. .. image:: https://coveralls.io/repos/pheaktra21/ckanext-fileremove/badge.svg
   :target: https://coveralls.io/r/pheaktra21/ckanext-fileremove
 
-.. image:: https://pypip.in/download/ckanext-fileremove/badge.svg
+.. .. image:: https://pypip.in/download/ckanext-fileremove/badge.svg
     :target: https://pypi.python.org/pypi//ckanext-fileremove/
     :alt: Downloads
-
-.. image:: https://pypip.in/version/ckanext-fileremove/badge.svg
+ 
+.. .. image:: https://pypip.in/version/ckanext-fileremove/badge.svg
     :target: https://pypi.python.org/pypi/ckanext-fileremove/
     :alt: Latest Version
 
-.. image:: https://pypip.in/py_versions/ckanext-fileremove/badge.svg
+.. .. image:: https://pypip.in/py_versions/ckanext-fileremove/badge.svg
     :target: https://pypi.python.org/pypi/ckanext-fileremove/
     :alt: Supported Python versions
 
-.. image:: https://pypip.in/status/ckanext-fileremove/badge.svg
+.. .. image:: https://pypip.in/status/ckanext-fileremove/badge.svg
     :target: https://pypi.python.org/pypi/ckanext-fileremove/
     :alt: Development Status
 
-.. image:: https://pypip.in/license/ckanext-fileremove/badge.svg
+.. .. image:: https://pypip.in/license/ckanext-fileremove/badge.svg
     :target: https://pypi.python.org/pypi/ckanext-fileremove/
     :alt: License
 
@@ -32,7 +31,7 @@
 ckanext-fileremove
 =============
 
-Fileremove is a light extension for removing stored file in local directory.
+Fileremove is a lightweight extension for removing stored file in local directory.
 
 While Filestore provides an ability to store file on local directory,
 Datastore provides an ability to store data of the file in database and 
@@ -78,17 +77,6 @@ To install ckanext-fileremove:
 4. Restart CKAN. For example if you've deployed CKAN with Apache on Ubuntu::
 
      sudo service apache2 reload
-
-
----------------
-Config Settings
----------------
-
-Document any optional config settings here. For example::
-
-    # The minimum number of hours to wait before re-checking a resource
-    # (optional, default: 24).
-    ckanext.fileremove.some_setting = some_default_value
 
 
 ------------------------
